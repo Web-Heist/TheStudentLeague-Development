@@ -6,30 +6,30 @@ html body{
 }
 
 .firstpagebg{
-    background-image:url(financial-equalization-1015266_1280.jpg);
+    background-image:url(connection-753480_1280.jpg);
     background-repeat:no-repeat; background-size:cover;
     background-position:center; width:100%; height:100rem;}
 
 .firstpagebg ul{ margin-left:57%; margin-top:2rem; 
     font-size:1.1rem; position:sticky; top:0; z-index:30;}
-.nav-link{color:rgb(29, 28, 28);}
+.nav-link{color:rgb(255, 0, 0); font-weight:bolder;}
 
 
 .content h3{font-size:1.9rem; margin-top:20rem; margin-left:7%; position:absolute;
      font-size:2.5rem; font-family:'Black Ops One',Impact,Fantasy; opacity:0; visibility: hidden;
-     color:rgb(32, 32, 31); animation-direction:normal; word-spacing:0.5rem; opacity:1;}
+     color:rgb(255, 0, 0);  font-weight:bolder; animation-direction:normal; word-spacing:0.5rem; opacity:1;}
 
-.t1{animation: t 4s 0s forwards ; animation-timing-function:linear;}
-.t2{animation: t 0.5s 4s forwards ; animation-timing-function:linear;}
-.t3{animation: t 2s 4.5s forwards ; animation-timing-function:linear;}
-.t4{animation: t 2s 6.5s forwards ; animation-timing-function:linear;}
-.t5{animation: t 0.5s 8.5s forwards ; animation-timing-function:linear;}
-.t6{animation: t 2s 9s forwards ; animation-timing-function:linear;}
-.t7{animation: t 2s 11s forwards ; animation-timing-function:linear;}
-.t8{animation: t 0.5s 13s forwards ; animation-timing-function:linear;}
-.t9{animation: t 2s 13.5s forwards ; animation-timing-function:linear;}
-.t10{animation: t 2s 15.5s forwards ; animation-timing-function:linear;}
-.t11{animation: t 1s 17.5s forwards ; animation-timing-function:linear;}
+     .t1{animation: t 4s 0s forwards ; animation-timing-function:linear;}
+     .t2{animation: t 0.5s 4s forwards ; animation-timing-function:linear;}
+     .t3{animation: t 2s 4.5s forwards ; animation-timing-function:linear;}
+     .t4{animation: t 2s 6.5s forwards ; animation-timing-function:linear;}
+     .t5{animation: t 0.5s 8.5s forwards ; animation-timing-function:linear;}
+     .t6{animation: t 2s 9s forwards ; animation-timing-function:linear;}
+     .t7{animation: t 2s 11s forwards ; animation-timing-function:linear;}
+     .t8{animation: t 0.5s 13s forwards ; animation-timing-function:linear;}
+     .t9{animation: t 2s 13.5s forwards ; animation-timing-function:linear;}
+     .t10{animation: t 2s 16.5s forwards ; animation-timing-function:linear;}
+     .t11{animation: t 1s 18.5s forwards ; animation-timing-function:linear;}
 
 .text.show {
     visibility: visible;
@@ -38,8 +38,8 @@ html body{
 .logo{ width:30rem; position:absolute; 
     margin-top:-6rem; margin-left:28%}
 
-.botpic{width:25rem; height:20rem; position:absolute; margin-left:5rem; margin-top:28rem;}
-.gearpic{width:20rem; height:16rem; z-index:10; position:absolute; margin-left:75rem; margin-top:80rem;}
+.botpic{width:24rem; height:18rem; position:absolute; margin-left:5rem; margin-top:28rem;}
+.gearpic{width:20rem; height:18rem; z-index:10; position:absolute; margin-left:70rem; margin-top:78rem;}
 
 .c1{ position: absolute;
     margin-top:20rem; margin-left:50%;
@@ -92,16 +92,32 @@ background-image: linear-gradient(to right, rgb(60, 55, 68), rgba(160, 151, 152,
       }
   }
 
-    
+  @media  only screen and ( width = 1366px) { html{font-size:80%;} html body{ width:100%; overflow-x:hidden;}
+}
+@media  only screen and ( width = 1280px) { html{font-size:70%;} html body{ width:100%; overflow-x:hidden;}
+}
+@media  only screen and ( width = 1024px) { html{font-size:65%;} html body{ width:100%; overflow-x:hidden;}
+}
+@media  only screen and ( width = 912px) { html{font-size:60%;} html body{ width:100%; overflow-x:hidden;}
+}
+@media  only screen and ( width = 820px) { html{font-size:55%;} html body{ width:100%; overflow-x:hidden;}
+}
+@media  only screen and ( width = 800px) { html{font-size:55%;} html body{ width:100%; overflow-x:hidden;}
+}
+@media  only screen and ( width = 768px) { html{font-size:52%;} html body{ width:100%; overflow-x:hidden;}
+}
+@media  only screen and ( width = 712px) { html{font-size:49%;} html body{ width:100%; overflow-x:hidden;}
+}  
 
- @media  only screen and (width <= 800px) { html{font-size:50%;} 
- .logo{margin-top:-8rem; margin-left:3%;} 
- .botpic{width:13.5rem; height:12rem; margin-top:41rem; margin-left:2%;}
- .gearpic{width:11rem; height:9.5rem; margin-top:81rem; margin-left:73%;}
+
+ @media  only screen and (width <= 700px) { html{font-size:50%;} 
+ .logo{margin-top:-9rem; margin-left:3%;} 
+ .botpic{width:14rem; height:12rem; margin-top:41rem; margin-left:2%;}
+ .gearpic{width:12rem; height:9.5rem; margin-top:81rem; margin-left:71%;}
  .c1{width:17rem; height:15rem; margin-top:25rem; margin-left:32%;} 
  .c2{width:17rem; height:15rem; margin-top:38rem; margin-left:60%;} 
  .c3{width:17rem; height:15rem;  margin-top:55rem; margin-left:2%;} 
  .c4{width:17rem; height:15rem;  margin-top:68rem; margin-left:30%;}
- html body{ width:100%; overflow-x:hidden;} .content h3{font-family:'Black Ops One',Impact,Fantasy; font-size:3rem; word-spacing:0.1rem; margin-top:17rem;}
+ html body{ width:100%; overflow-x:hidden;} .content h3{font-family:'Black Ops One',Impact,Fantasy;  font-size:3rem; word-spacing:0.1rem; margin-top:17rem;}
  .firstpagebg{width:100%; overflow-x:hidden;}
 }
